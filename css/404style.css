@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #F8F8FF;
+}
+body{
+    background: linear-gradient(to bottom, #272727, #808080); /* Grau zu helleres Grau Verlauf */
+    background-color: #808080;
+    background-size: 100% 100vh; /* Die Größe des Hintergrunds auf 100% der Breite und 100vh der Höhe setzen */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Hintergrunds */
+}
+.t404container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    user-select: none;
+}
+h1{
+    font-size: 200px;
+}
+.return{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #6831ff;
+    margin-top: 20px;
+    transition: all 0.3s ;
+}
+.return:hover{
+    background-color: #652efc;
+}

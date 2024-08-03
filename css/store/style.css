@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #272727;
+    background-size: 100% 100vh; /* Die Größe des Hintergrunds auf 100% der Breite und 100vh der Höhe setzen */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Hintergrunds */
+    height: 100vh;
+    padding: 25px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.text-container-top{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text-container-top h1{
+    font-size: 60px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #2270E2;
+    color: #fff;
+    margin-top: 10px;
+}
+.mid-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.angebote-container{
+    display: flex;
+    justify-content: center;
+}
+.angebot{
+    width: 300px;
+    height: 600px;
+    background-color: #ffffff;
+    opacity: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+.angebot a{
+    color: rgb(37, 37, 37);
+    font-size: 23px;
+}
+.angebot p, h4, h3{
+    color: rgb(37, 37, 37);
+}
+.angebot-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.angebot p{
+    color: #61a0ff;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* NAVBAR SECTION; DO NOT TOUCH!! */
+li, a, button{
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    font-weight: 600;
+    color: #edf0f1;
+    font-family: 'Poppins';
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    position: relative; /* Position relativ für die Pseudo-Elemente */
+    transition: all 0.25s ease-in 0s;
+}
+
+.nav__links li a::after {
+    content: ''; 
+    position: absolute;
+    bottom: -5px; /* Abstand zwischen Text und Unterstrich */
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #2270E2;
+    transition: all 0.25s ease; /* Änderung der Breite animieren */
+    opacity: 0; /* Anfangs unsichtbar machen */
+}
+
+.nav__links li a:hover::after {
+    width: 100%;
+    opacity: 1; /* Auf volle Sichtbarkeit ändern */
+}
+
+.button{
+    padding: 13px 25px;
+    font-weight: 400;
+    background-color: #2270E2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button{
+    padding: 13px 25px;
+    font-weight: 400;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: #2270E2;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s; 
+}
+button:hover{
+    background-color: #1c1c1c;
+        border-color: #2270c9;
+}
+.current{
+    color: #2270E2;
+}

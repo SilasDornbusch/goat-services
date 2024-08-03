@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance</title>
+    <link rel="icon" type="image/x-icon" href="https://goat-services.de/assets/services.png">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #fff;
+            --fg: #000;
+            --link: #006be7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #313338;
+                --fg: #fff;
+                --link: #00aafc;
+            }
+        }
+
+        body {
+            font: 18px 'gg sans', 'Helvetica Neue', Arial, sans-serif;
+            max-width: 760px;
+            margin: 0 auto;
+            line-height: 1.6;
+            padding: 0 24px;
+            background: var(--bg);
+            color: var(--fg);
+
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+             user-select: none;
+
+        }
+
+        body > * {
+            padding: 24px 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        h1 {
+            font-size: 2rem;
+            white-space: nowrap;
+        }
+
+        button, a {
+            all: unset;
+            color: var(--link);
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        button:hover, a:hover {
+            color: darken(var(--link), 10%);
+        }
+
+        #home {
+            color: inherit;
+        }
+
+        #ray {
+            font-size: 16px;
+            line-height: 24px;
+            font-family: monospace;
+        }
+
+        .footer {
+            font-size: 14px;
+            text-align: center;
+            color: var(--fg);
+        }
+
+        .footer a {
+            color: var(--link);
+        }
+
+        .footer a:hover {
+            color: var(--accent);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Under Maintenance</h1>
+        <p>Sorry, but the website is currently undergoing maintenance. We apologize for any inconvenience caused.</p>
+        <p>Please check back later. In the meantime, you can visit the <a href="https://goat-services.de/old_index.html" target="_blank">old page</a> for the good old feeling lol.</p>
+        <p>If you need immediate assistance, feel free to contact our support team.</p>
+        <p>Thank you for your understanding.</p>
+
+        <br>
+
+        <div class="footer">
+            <p>Best Regards,</p>
+            <p>GOAT Services Team ❤️</p>
+        </div>
+    </main>
+</body>
+</html>

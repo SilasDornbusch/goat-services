@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to bottom, #272727, #808080); /* Grau zu helleres Grau Verlauf */
+    background-color: #808080;
+    background-size: 100% 100vh; /* Die Größe des Hintergrunds auf 100% der Breite und 100vh der Höhe setzen */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Hintergrunds */
+}
+
+
+#top-section {
+    width: 100%;
+    height: 900px;
+}
+
+.infotext-top {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 28%;
+    margin-left: 8%;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.infotext-p {
+    padding-top: 2%;
+    font-size: 16px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.shop-btn {
+    margin-top: 4%;
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none;
+    background-color: transparent; 
+    border-radius: 2px; 
+    text-align: center; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: #d0d0d0;
+    border: 1px solid #d0d0d0; 
+    color: black; 
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-btn-normal {
+    padding: 20px;
+    color: #24252A;
+    background-color: #fff;
+    border-radius: 30px;
+    cursor: pointer; /* Fügt den Cursor hinzu, um anzuzeigen, dass es sich um einen klickbaren Link handelt */
+}
+
+.dropdown {
+    margin-top: 4vh;
+    display: none; /* Anfangs ausgeblendet */
+}
+
+.sign-up {
+    padding-bottom: 3vh;
+}
+
+.dc-box {
+    margin-top: -190px;
+    display: flex;
+    align-items: center;
+}
+
+.dc-p {
+    color: #d0d0d0;
+    padding-left: 10px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+#dc-logo {
+    color: #5738d2;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#bottom-section {
+    display: flex;
+    margin-left: 80%;
+    align-items: center;
+}
+
+.dc-btn {
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2270E2;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.dc-btn:hover {
+    background-color: #2270C2;
+}
+
+.bottom-housing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #191919); /* Grau zu helleres Grau Verlauf */
+    background-color: #808080;
+    background-size: 100% 100vh; /* Die Größe des Hintergrunds auf 100% der Breite und 100vh der Höhe setzen */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Hintergrunds */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2); /* Halbtransparenter Hintergrund */
+    border-radius: 15px; /* Abgerundete Ecken */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#register_text {
+    margin-bottom: 20px;
+    color: #000000dd;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-box-1, .input-box-2, .input-box-3 {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #000000dd;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+a {
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+#create-text{
+    font-size:  50px;
+}

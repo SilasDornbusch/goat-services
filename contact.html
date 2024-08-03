@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contactstyle.css">    
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+    <header>
+        <!-- <img class="logo" src="img/logo.svg" alt="logo"> -->
+        <p class="logo">GOAT Services</p>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="socials.html">Socials</a></li>
+                <li><a href="/games">Mini Games</a></li>
+                <li><a href="#" class="current">Contact</a></li>
+            </ul>
+        </nav>
+        <button onclick="window.location.href='/dashboard/login.php'" >
+            Login / Sign Up
+        </button>
+        
+    </header>
+    <section id="uppersection">
+        <h1>Contact Us</h1>
+        <div class="contactbox">
+            <div class="section1">
+                <div class="text-container-p">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, necessitatibus laboriosam expedita nulla eveniet unde saepe eum.</p>
+                
+                </div>
+                <div class="input-container-1">
+                    <div class="input1">
+                        <h2>Your Name*</h2>
+                        <input type="text">
+                    </div>
+                    <div class="input2">
+                        <h2>Your Email*</h2>
+                        <input type="email">
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="input3">
+                    <h2>Reason for Contact</h2>
+                    <select name="" id="">
+                        <option value class="hidden">Please select</option>
+                        <option value="general">General</option>
+                        <option value="support">Support</option>
+                        <option value="sponsorship">Partner / Sponsorship</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section3">
+                <h2>Your Message</h2>
+                <input type="text" class="input_big">
+            </div>
+            <a href="" class="send-btn">Send Message</a>
+        </div>
+    </section>
+</body>
+</html>
